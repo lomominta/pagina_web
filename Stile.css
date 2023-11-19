@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black; /* Puedes ajustar el color de fondo según tu diseño */
+    position: fixed;
+    width: 100%;
+    min-height: 70px;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    border-right: 20;
+}
+
+
+nav ul {
+    list-style-type: none;/* Sirve para no mostrar ningún marcador en una lista de elementos, se utiliza el valor none tanto en las listas ordenadas como en las no ordenadas*/
+    margin: 20px ;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav li {
+    margin-right: 40px;/* establece el margen derecho de un elemento especificando una longitud o un porcentaje.*/
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Puedes ajustar el color del texto según tu diseño */
+    font-size: 24px;
+}
+
+
+.cuerpo{
+    overflow: hidden;
+}
+
+
+.subtitulo{
+    background: #1551a1;
+}
+
+.titulo1{
+    color:#ff7700;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+}
+
+.column {
+    float: left;
+    width: 32.5%;
+    padding: 5px;
+    text-align: justify;
+    color: blue;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border-top: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer ul li {
+    margin: 10px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .redes-sociales a {
+    margin: 10px;
+  }
+  
+  
+  .icono-telefono img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .icono-telefono a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
